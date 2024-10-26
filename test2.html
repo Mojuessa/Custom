@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Order Queue Information</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Ubuntu', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('fotobg.jpeg'); /* Ganti dengan nama file gambar Anda */
+            background-size: cover;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 50px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #5c4d7d;
+        }
+        .brand-name {
+            font-family: 'Raleway', sans-serif;
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 10px;
+            color: #5c4d7d;
+            font-style: italic;
+        }
+        h2 {
+            color: #5c4d7d;
+        }
+        .order-info {
+            margin-bottom: 30px;
+        }
+        .order-info p {
+            line-height: 1.6;
+        }
+        .order-list {
+            list-style: none;
+            padding: 0;
+        }
+        .order-item {
+            background: #f0f0f0;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+        }
+        .social-icons {
+            display: flex;
+            gap: 20px;
+            justify-content: center; /* Untuk meratakan ikon di tengah */
+            margin-top: 20px;
+        }
+        .icon {
+            font-size: 40px;
+            color: #333;
+            transition: color 0.3s;
+        }
+        .icon:hover {
+            color: #007BFF; /* Ganti dengan warna hover yang diinginkan */
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            .brand-name {
+                font-size: 28px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            .icon {
+                font-size: 30px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .brand-name {
+                font-size: 24px;
+            }
+            h1 {
+                font-size: 20px;
+            }
+            .icon {
+                font-size: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="brand-name">NAEVICHI</div>
+        <h1>Waiting List Custom Order</h1>
+        <div class="order-info">
+            <p>Welcome to our custom order queue system! Please see the queue list below for more information regarding your orders.</p>
+        </div>
+        
+        <h2>Queue List</h2>
+        <ul class="order-list">
+            <li class="order-item">
+                <strong>Order #1:</strong> Custom Mug - Status: In Process
+            </li>
+            <li class="order-item">
+                <strong>Order #2:</strong> Custom T-Shirt - Status: Ready to Ship
+            </li>
+            <li class="order-item">
+                <strong>Order #3:</strong> Custom Sticker - Status: In Process
+            </li>
+            <li class="order-item">
+                <strong>Order #4:</strong> Custom Poster - Status: Not Yet Processed
+            </li>
+        </ul>
+
+        <div class="social-icons">
+            <a href="https://www.instagram.com/naevichi/" target="_blank" class="icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://t.me/naeeelyth/" target="_blank" class="icon"><i class="fab fa-telegram"></i></a>
+            <a href="https://www.tiktok.com/@naevichi/" target="_blank" class="icon"><i class="fab fa-tiktok"></i></a>
+        </div>
+    
+        <footer>
+            &copy; 2024 NAEVICHI. All rights reserved. | <a href="mailto:iyou.beads@gmail.com">Contact Us</a>
+        </footer>
+    </div>
+
+</body>
+</html>
